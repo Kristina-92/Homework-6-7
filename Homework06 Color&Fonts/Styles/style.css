@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Comforter&family=Lobster&family=Luxurious+Script&family=Merriweather+Sans:wght@500&family=Permanent+Marker&display=swap');
+
+body {
+    background-color: rgb(182, 191, 211);
+}
+
+.circle {
+    background: rgb(255, 0, 0);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Luxurious Script', cursive;
+    color: rgba(255, 255, 255, 0.973);
+    margin: 0 auto;
+}
+
+.first-paragraph {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: oblique 10deg;
+    text-align: center;
+}
+
+.sub-heading {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    text-decoration: red dotted underline;
+    letter-spacing: 3px;
+    font-size: 25px;
+    color:rgba(51, 6, 41, 0.548);  
+}
+
+.sub-paragraph {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+.paragraph-heading-two {
+    font-family: 'Lobster', cursive;
+    color: rgb(243, 13, 13);
+    text-shadow: 1px 5px 2px grey, -5px 6px 5px #1ea6bb;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+.second-paragraph {
+    font-family: 'Bree Serif', serif;
+    text-align: justify;
+    margin-right: 35%;
+    margin-left: 10%;
+}
+
+.second-paragraph::first-letter {
+    font-size: 30px;
+    color: #1ea6bb;
+}
+
+
+.paragraph-heading-three {
+    font-family: 'Lobster', cursive;
+    color: rgb(243, 13, 13);
+    text-shadow: 1px 5px 2px grey, -5px 6px 5px #ca5151;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+.third-paragraph {
+    font-family: 'Bree Serif', serif;
+    text-align: justify;
+    margin-left: 20%;
+}
+
+.third-paragraph::first-letter{
+    font-size: 30px;
+    color: #ca5151;
+}
+
+h4 {
+    font-family: 'Lobster', cursive;
+    color: rgb(243, 13, 13);
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 25%;
+}
+
+.wrapped-paragraph {
+    text-align: justify;
+    font-family: 'Bree Serif', serif;
+    margin-left: 25%;
+    margin-right: 45%;
+}
+
+ul {
+    font-style: italic;
+    text-align: justify;
+    margin-left: 30%;
+}
+
+.paragraph-heading-four {
+    font-family: 'Lobster', cursive;
+    color: rgb(243, 13, 13);
+    text-shadow: 1px 5px 2px grey, -5px 6px 5px #83bb81;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 35%;
+}
+
+.fourth-paragraph {
+    font-family: 'Bree Serif', serif;
+    text-align: justify;
+    margin-left: 35%;
+    margin-right: 20%;
+}
+
+.fourth-paragraph::first-letter{
+    font-size: 30px;
+    color: #83bb81;
+}
+
+.paragraph-heading-five {
+    font-family: 'Lobster', cursive;
+    color: rgb(243, 13, 13);
+    text-shadow: 1px 5px 2px grey, -5px 6px 5px #916aec;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 45%;
+    margin-right: 5%;
+}
+
+.fifth-paragraph {
+    font-family: 'Bree Serif', serif;
+    text-align: justify;
+    margin-left: 45%;
+    margin-right: 5%;    
+}
+
+.fifth-paragraph::first-letter {
+    font-size: 30px;
+    color:#916aec;
+}
+
+.last-heading {
+    font-family: 'Luxurious Script', cursive;
+    text-align: center;
+    font-size: 40px;
+    background-color: red;
+    color: rgba(255, 255, 255, 0.973);
+}
+
+.description {
+    font-family: 'Permanent Marker', cursive;
+    color:rgba(255, 255, 255, 0.973);
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    font-variant: small-caps;
+    color:rgb(65, 79, 94);
+    text-align: center;
+    letter-spacing: 3px;
+}

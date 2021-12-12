@@ -1,0 +1,188 @@
+.css-box {
+    width: 610px;
+    height: 590px;
+    background: black;
+    overflow: hidden;
+    margin: 20px;
+}
+
+nav {
+    width: 630px;
+    height: 60px;
+    display: inline-flex;
+}
+
+.first-box {
+    height: 60px;
+    width: 130px;
+    background: rgb(228, 247, 232);
+}
+
+.second-box {
+    height: 60px;
+    width: 220px;
+    background: beige;
+    margin-left: 10px;
+}
+
+.third-box {
+    height: 60px;
+    width: 180px;
+    background: rgb(253, 224, 127);
+    margin-left: 10px;
+}
+
+.right-side-top {
+    width: 60px;
+    height: 440px;
+    background:rgb(245, 235, 205);
+    margin-left: 10px;       
+}
+
+main {
+    position: relative;
+}
+
+.top-element {
+    height: 130px;
+    width: 60px;
+    background: rgb(250, 250, 223);
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.middle-element {
+    height: 220px;
+    width: 60px;
+    background: rgb(228, 247, 232);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.bottom-element {
+    height: 180px;
+    width: 60px;
+    background: rgb(253, 224, 127);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.central-box {
+    height: 290px;
+    width: 290px;
+    background:orangered;
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.yellowbox-right-top {
+    width: 180px;
+    height: 140px;
+    background: rgb(253, 224, 127);
+    position: absolute;
+    left: 300px;
+}
+
+.middle-boxes {
+    display: inline-flex;
+    position: absolute; 
+    top: 150px;
+}
+
+.middle-box-left {
+    height: 140px;
+    width: 85px;
+    background: rgb(228, 247, 232);
+}
+
+.middle-box-right {
+    height: 140px;
+    width: 85px;
+    background: beige;
+    margin-left: 10px
+}
+
+.bottom-boxes {
+    position: absolute;
+    top: 300px;
+}
+
+.bottom-box-beige {
+    width: 180px;
+    height: 70px; 
+    background: beige;
+    margin-bottom: 10px;
+}
+
+.bottom-box-blue {
+    width: 180px;
+    height: 100px;
+    background: rgb(2, 2, 128);
+}
+
+.right-side-bottom {
+    width: 60px;
+    height: 170px;
+    background: orangered;
+    position: relative;
+    top: -100px;
+    left: 190px;
+}
+
+.below-orangebox-left {
+    float: left;
+    position: relative;
+    top: 300px;
+}
+
+.top-box {
+    width: 140px;
+    height: 140px;
+    background: black;
+    margin-bottom: 10px;
+}
+
+.bottom-box {
+    width: 140px;
+    height: 100px;
+    background: rgb(228, 247, 232);
+}
+  
+.below-orangebox-right {
+    float: right;
+    position: relative;
+    top: 300px;
+}
+
+.top {
+    width: 140px;
+    height: 70px;
+    background: rgb(226, 226, 226);
+    margin-bottom: 10px;
+}
+
+.middle {
+    width: 140px;
+    height: 60px;
+    background: rgb(228, 247, 232);
+    margin-bottom: 10px;
+}
+
+.bottom1 {
+    width: 140px;
+    height: 30px;
+    background: black;
+}
+
+.bottom2 {
+    width: 330px;
+    height: 60px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+    top: 490px;
+    left: 150px;
+}
+
+
+
